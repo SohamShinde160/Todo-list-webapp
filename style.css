@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Ysabeau+SC:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+body {
+    background: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 35vw;
+    height: 85vh;
+    background-color: rgba(221, 0, 255, 0.33);
+    position: absolute;
+    right: 10rem;
+    top: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.334);
+}
+
+.todo-title {
+    height: 4rem;
+    width: 15rem;
+    background-color: rgb(243, 17, 228);
+    margin: 41px 0px 0px 110px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.334);
+}
+
+.todo-title h2 {
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.footer {
+    width: 100vw;
+    height: 30px;
+    position: absolute;
+    background-color: rgba(255, 0, 221, 0.711);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px px 20px 0px rgba(0, 0, 0, 0.334);
+}
+
+footer p {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+#task {
+    width: 91%;
+    height: 50px;
+    padding: 10px;
+    margin: 40px 0px 0px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px px 20px 0px rgba(0, 0, 0, 0.256);
+}
+
+#desc {
+    width: 91%;
+    padding: 0px 0px 10px 20px;
+    height: 100px;
+    margin: 40px 0px 0px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px px 20px 0px rgba(0, 0, 0, 0.256);
+}
+
+#add {
+    width: 20%;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+
+#deleteb {
+    width: 20%;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    background-color: rgb(184, 0, 0);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px px 20px 0px rgba(0, 0, 0, 0.334);
+    margin-top: 40px;
+    margin-right: 3rem;
+}
+
+.delet {
+    width: 19%;
+    border-radius: 10px;
+    height: 72px;
+    color: white;
+    background-color: rgb(184, 0, 0);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    margin-left: 134.2px;
+}
+
+.left-cont {
+    width: 30vw;
+    height: 80vh;
+    background-color: rgba(235, 123, 222, 0.705);
+    position: absolute;
+    left: 8rem;
+    top: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.334);
+}
+
+.todos-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px 5px 0px 20px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.334);
+}
+
+.todos-container p {
+    margin: 0;
+    flex-grow: 1;
+    /* font-size: large; */
+}
+
+.container p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
